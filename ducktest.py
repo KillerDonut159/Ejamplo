@@ -1,8 +1,8 @@
-number = 1000
+number =  1000
 
-fullduck = "{} ducks were eaten! Good amount!"
+fullduck = f"{str(number)} ducks were eaten! Good amount!"
 
 if number > 100:
-    print(fullduck.format(number))
+    print(fullduck)
 else:
     print("Not enough ducks were eaten :(")
